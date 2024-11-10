@@ -1,0 +1,45 @@
+.head {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-bottom: 2px solid #444;
+}
+
+input[type='email'] {
+  padding: 12px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input[type='email']:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+span {
+  margin: 0 15px; 
+  color: white; 
+  font-size: 18px;
+}
+
+.search-bar {
+  padding: 12px;
+  width: 400px;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
